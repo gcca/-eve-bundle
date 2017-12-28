@@ -1,0 +1,45 @@
+{
+  "author": "EveTeam",
+  "bin": {
+    "rhoda-bundler": "bundler.js",
+    "rhoda-bundler_serve": "serve.js"
+  },
+  "dependencies": {
+    "canonical-path": "^0.0.2",
+    "lite-server": "^2.3.0",
+    "rollup": "^0.53.0",
+    "rollup-plugin-angular": "^0.5.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify-es": "^0.0.1"
+  },
+  "description": "Eve Bundler",
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "name": "@rhoda/bundler",
+  "peerDependencies": {
+    "@angular/animations": "^5.1.2",
+    "@angular/common": "^5.1.2",
+    "@angular/compiler": "^5.1.2",
+    "@angular/compiler-cli": "^5.1.2",
+    "@angular/core": "^5.1.2",
+    "@angular/forms": "^5.1.2",
+    "@angular/http": "^5.1.2",
+    "@angular/platform-browser": "^5.1.2",
+    "@angular/platform-browser-dynamic": "^5.1.2",
+    "@angular/platform-server": "^5.1.2",
+    "@angular/router": "^5.1.2",
+    "@angular/upgrade": "^5.1.2",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.6.2",
+    "zone.js": "^0.8.18"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git@github.com:gcca/-eve-bundler.git",
+  "version": "1.0.0"
+}
